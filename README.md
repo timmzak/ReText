@@ -55,19 +55,21 @@ For multi-camera annotation, LLaVA-1.6-7B is fine-tuned on UFine3C to generate d
 
 ### Cross-domain person re-identification
 
+We compare ReText with [DynaMix](https://www.sciencedirect.com/science/article/pii/S0925231225031182), our previous state-of-the-art method for generalizable person re-identification.
+
 Results below are transcribed from **Table 3 of the manuscript**. Each cell reports **Rank-1 / mAP (%)**. Models are evaluated on unseen target datasets without target-domain retraining. The training source column specifies the multi-camera dataset; ReText (MSt) additionally uses SYNTH-PEDES with captions.
 
-| Multi-camera training source | Method | → CUHK03-NP | → Market-1501 | → MSMT17 |
-| :--- | :--- | :---: | :---: | :---: |
-| Market-1501 | DynaMix | 51.0 / 52.2 | — | 65.5 / 36.7 |
-| Market-1501 | ReText (Mt) | **57.6 / 58.2** | — | 66.2 / 39.4 |
-| Market-1501 | ReText (MSt) | **57.6** / 57.5 | — | **70.1 / 43.1** |
-| MSMT17 | DynaMix | 48.9 / 49.6 | 91.1 / 77.7 | — |
-| MSMT17 | ReText (Mt) | 61.9 / 61.8 | 93.3 / 81.4 | — |
-| MSMT17 | ReText (MSt) | **63.4 / 63.1** | **93.6 / 83.6** | — |
-| RandPerson | DynaMix | 36.9 / 39.3 | 89.3 / 72.4 | 67.1 / 36.5 |
-| RandPerson | ReText (Mt) | 44.2 / 44.1 | 90.7 / 76.4 | 67.9 / 39.7 |
-| RandPerson | ReText (MSt) | **46.9 / 47.7** | **91.7 / 79.7** | **70.8 / 42.3** |
+| Multi-camera training source | Method       |   → CUHK03-NP   |  → Market-1501  |    → MSMT17     |
+| :--------------------------- | :----------- | :-------------: | :-------------: | :-------------: |
+| Market-1501                  | DynaMix      |   51.0 / 52.2   |        —        |   65.5 / 36.7   |
+| Market-1501                  | ReText (Mt)  | **57.6 / 58.2** |        —        |   66.2 / 39.4   |
+| Market-1501                  | ReText (MSt) | **57.6** / 57.5 |        —        | **70.1 / 43.1** |
+| MSMT17                       | DynaMix      |   48.9 / 49.6   |   91.1 / 77.7   |        —        |
+| MSMT17                       | ReText (Mt)  |   61.9 / 61.8   |   93.3 / 81.4   |        —        |
+| MSMT17                       | ReText (MSt) | **63.4 / 63.1** | **93.6 / 83.6** |        —        |
+| RandPerson                   | DynaMix      |   36.9 / 39.3   |   89.3 / 72.4   |   67.1 / 36.5   |
+| RandPerson                   | ReText (Mt)  |   44.2 / 44.1   |   90.7 / 76.4   |   67.9 / 39.7   |
+| RandPerson                   | ReText (MSt) | **46.9 / 47.7** | **91.7 / 79.7** | **70.8 / 42.3** |
 
 **Highlights:** with MSMT17 as the multi-camera training source, ReText (MSt) improves mAP over DynaMix by **13.5 percentage points on CUHK03-NP** and **5.9 percentage points on Market-1501**.
 
