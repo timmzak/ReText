@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/retext-header.png" alt="ReText: Text Boosts Generalization in Image-Based Person Re-identification" width="100%">
+  <img src="assets/retext-header-v2.png" alt="ReText: Text Boosts Generalization in Image-Based Person Re-identification" width="100%">
 </p>
 
 <div align="center">
