@@ -40,7 +40,7 @@ The method combines multi-camera person Re-ID data with stylistically diverse si
 | Task | Objective | Role |
 | :--- | :--- | :--- |
 | **1. Person re-identification** | Instance, augmentation, centroid, and camera-centroid losses | Learn identity-discriminative features across camera views. |
-| **2. Image-text matching (ITM)** | **Identity-aware Matching Loss** + **Structure-preserving Loss** | Align images with descriptive captions while preserving intra-identity structure in the shared embedding space. |
+| **2. Image-text matching (ITM)** | Identity-aware Matching Loss + Structure-preserving Loss | Align images with descriptive captions while preserving intra-identity structure in the shared embedding space. |
 | **3. Text-guided image reconstruction (IR)** | Masked-patch mean squared error + semantic cosine similarity loss | Reconstruct masked images using text and encourage robustness to missing or occluded visual information. |
 
 The architecture comprises a ViT-Base image encoder, an exponential-moving-average (EMA) momentum image encoder, a BERT-Base text encoder, and an image decoder. In the mixed-data configuration, the Re-ID objective is applied only to multi-camera data.
