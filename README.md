@@ -11,7 +11,7 @@
 <sup>1</sup> Tevian, Moscow, Russia &nbsp; <sup>2</sup> Lomonosov Moscow State University  
 <sup>&#42;</sup> Equal contribution
 
-**Accepted at WACV 2027** · [Paper (arXiv)](https://arxiv.org/abs/2602.05785)
+**Accepted by WACV 2027** · [Paper (arXiv)](https://arxiv.org/abs/2602.05785)
 
 [Overview](#overview) · [Method](#method) · [Results](#results) · [Release Status](#release-status) · [Citation](#citation)
 
@@ -102,7 +102,7 @@ Adding descriptive captions increases the reported average mAP by **14.1 percent
 
 ```bibtex
 @article{mamedov2026retext,
-  title={{ReText}: Text boosts generalization in image-based person re-identification},
+  title={ReText: Text boosts generalization in image-based person re-identification},
   author={Mamedov, Timur and Kvanchiani, Karina and Konushin, Anton and Konushin, Vadim},
   journal={arXiv preprint arXiv:2602.05785},
   year={2026}
