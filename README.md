@@ -1,12 +1,17 @@
+<p align="center">
+  <img src="assets/retext-header.png" alt="ReText: Text Boosts Generalization in Image-Based Person Re-identification" width="100%">
+</p>
+
 <div align="center">
 
-# ReText
-### Text Boosts Generalization in Image-Based Person Re-identification
+# ReText: Text Boosts Generalization in Image-Based Person Re-identification
 
-**Timur Mamedov<sup>1,2,*</sup> · Karina Kvanchiani<sup>1,*</sup> · Anton Konushin<sup>2</sup> · Vadim Konushin<sup>1</sup>**
+**Timur Mamedov<sup>1,2,&#42;</sup> · Karina Kvanchiani<sup>1,&#42;</sup> · Anton Konushin<sup>2</sup> · Vadim Konushin<sup>1</sup>**
 
 <sup>1</sup> Tevian, Moscow, Russia &nbsp; <sup>2</sup> Lomonosov Moscow State University  
-<sup>*</sup> Equal contribution
+<sup>&#42;</sup> Equal contribution
+
+**Accepted at WACV 2027** · [Paper (arXiv)](https://arxiv.org/abs/2602.05785)
 
 [Overview](#overview) · [Method](#method) · [Results](#results) · [Release Status](#release-status) · [Citation](#citation)
 
@@ -97,7 +102,7 @@ Adding descriptive captions increases the reported average mAP by **14.1 percent
 
 ```bibtex
 @article{mamedov2026retext,
-  title={Retext: Text boosts generalization in image-based person re-identification},
+  title={{ReText}: Text boosts generalization in image-based person re-identification},
   author={Mamedov, Timur and Kvanchiani, Karina and Konushin, Anton and Konushin, Vadim},
   journal={arXiv preprint arXiv:2602.05785},
   year={2026}
