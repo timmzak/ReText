@@ -18,7 +18,8 @@
 </div>
 
 > [!IMPORTANT]
-> **Datasets with generated textual annotations and fine-tuned VLM weights will be released soon.**
+> **Generated textual annotations and fine-tuned VLM weights are available below.**
+> See [textual annotations](#textual-annotations) and [VLM weights and captioning instructions](llava_weights/README.md).
 
 ## Overview
 
@@ -93,10 +94,26 @@ Adding descriptive captions increases the reported average mAP by **14.1 percent
 
 ## Release Status
 
-| Resource | Status |
+| Resource | Location |
 | :--- | :--- |
-| Datasets with generated textual annotations | **Coming soon** |
-| Fine-tuned VLM weights | **Coming soon** |
+| Generated textual annotations | [texts_for_multi_camera](texts_for_multi_camera) |
+| Fine-tuned VLM weights and captioning instructions | [llava_weights](llava_weights/README.md) |
+
+### Textual annotations
+
+Each JSON file maps an image path to its generated caption. The counts below describe the released files. Original dataset images are not included.
+
+| Dataset | Annotations | Entries |
+| :--- | :--- | ---: |
+| CUHK-SYSU | [cuhk-sysu.json](texts_for_multi_camera/cuhk-sysu.json) | 23,435 |
+| CUHK03 | [cuhk03.json](texts_for_multi_camera/cuhk03.json) | 28,193 |
+| Market-1501 | [market-1501.json](texts_for_multi_camera/market-1501.json) | 36,036 |
+| MSMT17 | [msmt17.json](texts_for_multi_camera/msmt17.json) | 126,441 |
+| RandPerson | [randperson.json](texts_for_multi_camera/randperson.json) | 132,145 |
+
+### VLM weights
+
+The [VLM release](llava_weights/README.md) contains the fine-tuned weights, model configuration, and a script for captioning your own images. The weights are stored with Git LFS; the base LLaVA and CLIP models are loaded separately by the script.
 
 ## Citation
 
