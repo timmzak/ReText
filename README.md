@@ -96,8 +96,8 @@ Adding descriptive captions increases the reported average mAP by **14.1 percent
 
 | Resource | Location |
 | :--- | :--- |
-| Generated textual annotations | [texts_for_multi_camera](texts_for_multi_camera) |
-| Fine-tuned VLM weights and captioning instructions | [llava_weights](llava_weights/README.md) |
+| Generated textual annotations | [GitHub](texts_for_multi_camera) · [Hugging Face](https://huggingface.co/datasets/timmzak/ReText-Captions) |
+| Fine-tuned VLM weights and captioning instructions | [GitHub](llava_weights/README.md) · [Hugging Face](https://huggingface.co/timmzak/ReText-LLaVA) |
 
 ### Textual annotations
 

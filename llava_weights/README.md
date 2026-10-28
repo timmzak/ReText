@@ -12,6 +12,8 @@
 
 This directory contains the fine-tuned VLM weights used to generate textual descriptions for ReText and a script for captioning your own images using HAM.
 
+The weights and captioning files are also available on [Hugging Face](https://huggingface.co/timmzak/ReText-LLaVA).
+
 ## Release contents
 
 | File | Description |
